@@ -1,0 +1,102 @@
+Conditional Construct
+	1) if...else
+	2) switch case
+
+Loops
+	1) while
+	2) do...while
+	3) for
+	
+HOMEWORK:
+
+1)WAP to accept a number from user and print 1....n.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+  	int Number, i;
+
+  	cout<<"Please Enter any Integer Value :"<<endl;
+  	cin>>Number;
+
+  	cout<<"List of natural numbers from 1 to n:"<<Number<<endl;
+	for(i = 1; i <= Number; i++)
+  	{
+    	cout<<i<<endl;
+  	}
+
+  	return 0;
+}
+
+
+
+2)WAP to accept a number from user and print n to 1.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+  	int Number, i;
+
+  	cout<<"Please Enter any Integer Value :"<<endl;
+  	cin>>Number;
+
+  	cout<<"List of numbers from n to 1:"<<Number<<endl;
+	for(i = Number; i >= 1; i--)
+  	{
+    	cout<<i<<endl;
+  	}
+
+  	return 0;
+}
+
+
+3)WAP to accept a number from user and print all odd numbers between 1 to n.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+  	int i, number;
+
+  	cout<<" Please Enter the Maximum Limit Value :  "<<endl;
+  	cin>>number;
+
+  	cout<<" Odd Numbers between 1 to number : \n"<< number<<endl;
+  	for(i = 1; i <= number; i++)
+  	{
+    	if ( i % 2 != 0 )
+    	{
+  			cout<<i<<endl;
+    	}
+  	}
+
+  	return 0;
+}
+
+4)WAP to accept two numbers from user m and n. Display series from m to n.
+
+	m=2
+	n=9
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int m=2,n=9,i;
+
+	cout << " Input a number of m and n: "<<endl;
+	cin>> m>>n;
+    cout << " The series are:\n"<<endl;
+    for( i = m; i <= n; i++)
+    {
+        cout << i << endl;
+
+    }
+     return 0;
+}
+
+
+
+

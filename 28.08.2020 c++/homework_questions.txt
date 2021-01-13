@@ -1,0 +1,32 @@
+Create a structure to accept three books and store in array and print.
+
+
+WAP in c++ to create inheritance example for following:
+There two type of books HardWareBook and SoftwareBook:
+
+Hardwarebook contains bookid,bookname,price,category.
+Softwarebook contains bookid,bookname,price,version.
+
+
+Book
+	-bookid
+	-bookname
+	-price
+
+
+HardwareBook
+	-category
+
+SoftwareBook
+	-version
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+WAP in c++ to accept employeename,salary and age.
+Use encapsulation with following conditions:
+
+
+	employeename should contain minimum 4  and maximum 8 characters.
+	salary should between 15000 to 150000
+	age>=18 and age<=60

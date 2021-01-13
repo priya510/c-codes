@@ -1,0 +1,46 @@
+Encapsulation
+
+	Hide your memeber variables and access them through public
+	functions for different reasons.
+
+	Getters & Setters functions
+		OR
+	Accessors and Mutators functions
+	
+Access Specifiers:
+        1) private (Bydefault all variables and functions in c++ are private)
+        2) public
+        3) protected
+
+Constructor
+	Constructor is used to constructor memory of a class
+	and intialize member variables.
+
+	There are two type of constructors:
+		1) Default Constructor
+		2) Parameterized Constructor
+
+	There are following rules to create constructor:
+		1) Constructor and class name should be same.
+		2) Constructor don't have any return type.
+		3) Constructor invokes automatically when we create
+		   object of a class. We don't have to call them
+		   explicitly like a function.
+
+
+Destructor:
+		
+	Whenever we use class. At the end of program all the memories
+	destroyed by destructor to clean the garbage collection as
+	they are not required in the system. Because in every execution of 
+	a program. Program creates a new memeory for a class.
+
+	To create destructor use tilde sign and same name as a class
+	name.	
+	Only one destructor per class is allowed and it will delete
+	all memories created by different constructors.
+
+Structure:
+
+	Structure is similar like class but there are many OOPS
+	Concept which struct doesn't support.

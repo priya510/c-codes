@@ -1,0 +1,30 @@
+IPO Questions:
+
+WAP in c++ to accept meters from user and convert into kilometers and centimeters.
+WAP in c++ to accept three numbers from user and calculate average.
+WAP in c++ to accept three subjects from user and calculate percentage.
+ 
+WAP in c++ to accept celsius from user and convert into fahrenheit.
+
+WAP in c++ to caluculate following:
+
+1) Area of triangle
+2) Area of rectangle.
+
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+If...Else:
+
+WAP in c++ to accept three angles from user of triangle
+and check whether it is a valid triangle or not.
+
+WAP in c++ to accept amount from user and check whether amount
+is greater than 7000 then print 5% discount.
+
+WAP in c++ to accept three numbers from user and 
+display greatest number.
+
+
+

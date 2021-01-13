@@ -1,0 +1,16 @@
+WAP in c++ to create
+a product and store 3 products and display
+products in reverse order/latest product first.
+
+eg.
+
+INPUT:
+iphone
+samsung
+moto
+
+
+OUTPUT:
+moto
+samsung
+iphone

@@ -1,0 +1,80 @@
+Operators in c++
+
+1) Assignment Operator  (=)
+
+	int x=2;
+
+2) Arithmetic Operators (/,%,*,+,-)
+
+	2/2 	  = 1 (Quotient)
+	2%2 	  = 0 (Remainder)
+
+	2+2/2	  = 3
+	2+2/2*2-2 = 2+1*2-2
+		  = 2+2-2
+		  = 4-2
+		  = 2
+
+3) Comparison Operators	(>,<,>=,<=,==,!=)
+
+	int x=2;  //Assignment Operator
+	x==2;	  //Comparison Operator
+	
+	
+	int age=12;
+
+	age> 18	 //false
+	age< 18	 //true
+	age>=18	 //false
+	age<=18	 //true
+	age==18	 //false
+	age!=18	 //true
+
+
+4) Logical Operators	(&&,||,!)
+
+
+	int height=3;
+
+	if(height>=4 && height<=9) -> false
+	if(height>=4 || height<=9) -> true
+	
+	
+	if(!height<4)		   -> false 
+	if(height>=4)		   -> false
+
+		
+5) Unary Operators	(++,--)
+
+	int x=5;
+	x=x+1	or x++
+
+	int x=5;
+
+	postfix	cout<<x++;  //5
+	prefix	cout<<++x;  //7
+
+	
+	int x=6;
+
+	cout<<x++; //6
+	cout<<--x; //6
+	cout<<--x; //5
+	cout<<x++; //5
+	cout<<x--; //6
+
+
+6) Arithmetic-Assignment Operator (+=,-=,/=,*=,%=)
+
+	int x=5;
+	x+=1 same as x=x+1 
+
+
+	int x=19;
+	x%=2;		-> 1
+
+
+
+
+	
+	

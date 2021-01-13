@@ -1,0 +1,8 @@
+C++ Programming Language
+
+CodeBlocks
+	https://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/codeblocks-20.03mingw-setup.exe/download
+
+
+IPO (Input, Process & Output)
+Decision Making Programs
